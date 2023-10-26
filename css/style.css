@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Lato', sans-serif; */
+}
+
+body {
+  height: 100vh;
+  background-image: url("../img/fondo.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #03588c;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+}
+
+h5{
+  color: #fff;
+}
+
+select{
+  cursor: pointer;
+}
+
+small {
+  font-size: 0.85rem;
+}
+
+.form {
+  padding: 30px;
+  border: none;
+  background: rgba(79, 82, 112, 0.502);
+  border-radius: 10px;
+}
+
+.containerNone {
+  display: none;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.card {
+  width: 250px;
+  height: 100%;
+  background: rgba(79, 82, 112, 0.502);
+  border: 1px solid #010d26;
+  height: 350px;
+}
+
+.card:hover h5 {
+  color: #000;
+  background-color: #9AC1D9;
+  border-radius: 0.375rem 0.375rem 0 0;
+}
+
+.card:hover{
+  border: 1px solid #9AC1D9;
+}
+
+.btn:hover{
+  background-color: #010d26;
+  color: #fff;
+  border: 1px solid #010d26;
+  font-weight: 600;
+}
+
+.btn-color{
+  background-color: #9AC1D9;
+  color: #000;
+}
+
+.btn:first-child:active{
+  background-color: #9AC1D9;
+}
+
+.price {
+  font-size: 35px;
+}
+
+
+
